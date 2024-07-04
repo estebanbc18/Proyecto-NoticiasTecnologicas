@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #3d2c08;
     font-family: "Oswald", sans-serif;
     color: white;
-    width: 1000px;
+    width: 80%;
 }
 .boton-menu {
 }
@@ -91,7 +91,7 @@ body{
     color: white;
     background-color: grey;
     border: radius 10px;
-    border: solid wheat;
+    border: solid gray;
     
     
 }
@@ -100,15 +100,25 @@ body{
 .tarjetas-noticias {
     display: flex;
     flex-direction: row;
-    margin: 40px;
-    gap: 30px;
+    margin: 10px;
+    gap: 10px;
     text-align: center;
+
+    
+   
+
 }
 .tarjetas-noticias__tarjeta {
     justify-content: space-around;
+    
+    
 }
+
+
+
 .tarjetas-noticias__tarjeta img{
     width: 100%;
+    height: 200px;
 
 }
 .tarjetas-noticias a{
@@ -120,3 +130,130 @@ color: white;
 }
 
 
+
+/* css entregable 2 */
+
+
+.banner-tarjetas-uno {
+}
+.banner-tarjetas-uno__contenido {
+    background-image: url('https://github.com/Marcelo89890/Proyecto1-2024/blob/main/tech-red.jpg?raw=true');
+    width: 95%;
+    text-align: center;
+    margin: 30px;
+    padding: 45px;
+    background-position: center;
+    background-size: cover;
+    color: beige;
+}
+.banner-tarjetas-uno__contenido p{
+    margin-bottom: 15px;
+}
+.boton{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #020202;
+    background-color: grey;
+    border-radius: 4px;
+}
+    
+    
+.fas {
+}
+.fa-chevron-right {
+}
+.tarjetas-noticias {
+}
+.tarjetas-noticias__tarjeta {
+}
+.fa-angle-double-right {
+}
+.banner-tarjetas-dos {
+}
+.banner-tarjetas-dos__contenido {
+    background-image: url('https://github.com/Marcelo89890/Proyecto1-2024/blob/main/Image-five.jpg?raw=true');
+    width: 95%;
+    height: 250px;
+    text-align: center;
+    background-position: center;
+    margin: 30px;
+    padding: 45px;
+    background-size: cover;
+    align-items: center;
+
+}
+.banner-tarjetas-dos__contenido p{
+    margin-bottom: 15px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.social__enlaces {
+    margin-top: 20px;
+    
+}
+.fab {
+    color: white;
+    
+}
+.fa-facebook-f {
+}
+.enlaces-pie {
+   
+    
+    
+    
+}
+.enlaces-pie__contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 100px;
+    background-color: grey;
+    margin-top: 20px;
+    
+    
+    
+}
+.enlaces-pie__lista {
+    list-style: none;
+   
+    
+    
+   
+    
+    
+}
+.enlaces-pie__lista h3{
+    color: white;
+    
+}
+.enlaces-pie__lista a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    text-align: center;
+    font-size: small;
+    
+    
+}
+
+.pie {
+    display: grid;
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-family: "Oswald" sans-serif;
+     background-color: grey;
+     align-items: center;
+    margin-bottom: 80px;
+    width: 1200px;
+    height: 100px;
+    
+
+}
