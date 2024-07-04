@@ -47,11 +47,15 @@ body{
 }
 .navegacion-principal__menu li{
     list-style: none;
+    justify-content: center;
+    align-items: center;
    
 }
 .navegacion-principal__menu a{
     color: white;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .navegacion-principal__menu-derecha {
